@@ -77,7 +77,7 @@ function App({ signOut, user }) {
       <button onClick={signOut}>Sign out</button>
       <div>
           <label htmlFor="textInput">Text Input:</label>
-          <input type="text" id="textInput" value={e => setInputText(e.target.value)} />
+          <input type="text" id="textInput" value={inputText} onChange={(e) => setInputText(e.target.value)} />
       </div>
       <div>
         <label htmlFor="fileInput">File Input:</label>
