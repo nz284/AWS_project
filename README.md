@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# How to start this code
+
+log in aws account, click s3 page, then upload file as .txt and enter text. Then after a few minutes, output file will be in s3 amplifyauth7f7dbaf28503456895e12d9cc3047cd6c016d-dev/public, script.sh in github and also in bucket juanzhao. Dynamodb is file_lib. 
+
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
